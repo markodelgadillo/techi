@@ -1,0 +1,54 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 80px;
+  border: 1px solid black;
+}
+
+nav {
+}
+
+.container {
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.left {
+  width: calc((1024px / 4) * 3);
+  float: left;
+  border: 1px solid black;
+}
+
+.right {
+  float: left;
+  border: 1px solid black;
+}
+
+#left-logo {
+  height: 80px;
+  width: calc(1024px / 4);
+  border: 1px solid black;
+}
+
+#left-nav {
+  position: absolute;
+  left: 490px;
+  top: 30px;
+}
+
+#left-nav ul {
+  float: left;
+}
+
+#left-nav ul li {
+  float: left;
+  margin: 5px;
+  list-style: none;
+}
