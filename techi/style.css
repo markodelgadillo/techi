@@ -1,46 +1,89 @@
-html,
-body {
+* {
   box-sizing: border-box;
   margin: 0;
+  font-size: 10px;
+  font-family: sans-serif;
 }
 
 header {
+  background-color: white;
   position: relative;
-  height: 80px;
+  height: 95px;
   border: 1px solid black;
 }
 
-nav {
+li {
+  font-size: 1.6rem;
+  color: rgb(21, 149, 136);
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+footer > div > span {
+  font-size: 1.6rem;
 }
 
 .container {
-  width: 1024px;
-  height: auto;
+  width: 1280px;
+  height: 100vh;
   margin: 0 auto;
-  border: 2px solid black;
 }
 
 .left {
-  width: calc((1024px / 4) * 3);
+  background-color: rgb(38, 50, 56);
+  width: calc((1280px / 4) * 3);
+  height: 100%;
   float: left;
   border: 1px solid black;
 }
 
 .right {
   float: left;
-  border: 1px solid black;
+  width: calc(1280px / 4);
+  height: 100%;
+}
+
+.team-members {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+}
+
+.team-members > div {
+  background-color: pink;
+  width: calc(958px / 3);
+  padding: 10px;
+  float: left;
+}
+
+.images {
+  height: 88%;
+  border: 1px solid white;
+}
+
+.link {
+  height: 12%;
+  color: rgb(21, 149, 136);
+}
+
+.link > span {
+  font-size: 1.6rem;
 }
 
 #left-logo {
-  height: 80px;
-  width: calc(1024px / 4);
+  clear: both;
+  height: 95px;
+  width: calc(1280px / 4);
   border: 1px solid black;
 }
 
 #left-nav {
   position: absolute;
-  left: 490px;
-  top: 30px;
+  top: 60px;
+  right: 20px;
 }
 
 #left-nav ul {
@@ -51,4 +94,28 @@ nav {
   float: left;
   margin: 5px;
   list-style: none;
+}
+
+#left-icons {
+  font-size: 2rem;
+  display: inline;
+  height: auto;
+  padding: 0;
+  float: right;
+}
+
+#team-header {
+  position: relative;
+  color: white;
+  background: black;
+  height: 130px;
+}
+
+#team-header > span {
+  position: absolute;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 4rem;
+  top: 20%;
+  transform: translateY(50%);
 }
