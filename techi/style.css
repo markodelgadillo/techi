@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+html,
+body {
+  min-width: 1280px;
+}
+
 header {
   background-color: white;
   position: relative;
@@ -30,6 +35,11 @@ footer > div > span {
   font-size: 1.5rem;
 }
 
+a {
+  font-size: 1.85rem;
+  color: rgb(21, 149, 136);
+}
+
 .container {
   width: 1280px;
   height: 100vh;
@@ -37,29 +47,31 @@ footer > div > span {
 }
 
 .left {
+  position: relative;
   background-color: rgb(38, 50, 56);
   width: calc((1280px / 4) * 3);
-  height: 100%;
+  height: 1621px;
   float: left;
   border-right: 1px solid black;
 }
 
 .right {
+  position: relative;
   float: left;
   width: calc(1280px / 4);
   height: 100%;
 }
 
-.team-members {
+.left-team-members {
   height: 500px;
   width: 100%;
   background-color: white;
   padding-left: 10px;
 }
 
-.team-members > div {
+.left-team-members > div {
   float: left;
-  margin: 18px 10px;
+  margin: 18px 10px 0;
 }
 
 .link {
@@ -67,17 +79,42 @@ footer > div > span {
   color: rgb(21, 149, 136);
 }
 
-.link > span {
-  font-size: 1.6rem;
-}
-
 .logo {
   height: 95px;
 }
 
+.logo img {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.logo i {
+  position: relative;
+  top: 33px;
+  left: 277px;
+  color: rgb(21, 149, 136);
+  font-size: 3rem;
+}
+
+.right-team-members {
+  margin-left: 17px;
+}
+
+.right-team-members > div {
+  margin: 15px 0;
+}
+
+.right > footer {
+  padding: 0;
+}
+
 #left-logo {
-  clear: both;
+  position: absolute;
+  left: -20px;
+  top: 10px;
   width: calc(1280px / 4);
+  float: left;
 }
 
 #left-nav {
@@ -102,6 +139,11 @@ footer > div > span {
   float: right;
 }
 
+#left-footer {
+  position: absolute;
+  left: 27%;
+}
+
 #team-header {
   position: relative;
   color: white;
@@ -123,6 +165,7 @@ footer > div > span {
 }
 
 #right-nav {
+  top: 95px;
   width: 100%;
   float: left;
   padding-left: 0;
@@ -144,4 +187,16 @@ footer > div > span {
 
 #right-nav:first-child {
   border-top: 1px solid black;
+}
+
+#right-footer {
+  background-color: rgb(38, 50, 56);
+  height: 95px;
+}
+
+#right-icons {
+  font-size: 1.5rem;
+  display: inline;
+  height: auto;
+  float: left;
 }
