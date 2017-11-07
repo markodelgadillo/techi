@@ -70,6 +70,7 @@ a {
 }
 
 .left-team-members > div {
+  position: relative;
   float: left;
   margin: 18px 10px 0;
 }
@@ -107,6 +108,51 @@ a {
 
 .right > footer {
   padding: 0;
+}
+
+.images {
+  position: relative;
+}
+
+.images span {
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  color: white;
+  font-size: 3rem;
+  top: 300px;
+  right: -2px;
+}
+
+.images span b {
+  position: absolute;
+  right: 3px;
+}
+
+#left-image-body-text {
+  position: absolute;
+  height: 83%;
+  width: 298px;
+  top: 67px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#left-image-body-text span {
+  position: relative;
+  top: 10px;
+  right: -68px;
+}
+
+#body-text {
+  position: absolute;
+  width: 90%;
+  display: inline-block;
+  white-space: normal;
+  top: 160px;
+  right: 12px;
+  line-height: 18px;
+  font-size: 1rem;
+  font-weight: 200;
 }
 
 #left-logo {
