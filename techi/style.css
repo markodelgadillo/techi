@@ -28,6 +28,7 @@ nav ul li {
 footer {
   padding: 15px;
   color: white;
+  font-weight: 200;
 }
 
 footer > div > p {
@@ -125,20 +126,18 @@ a {
   right: -2px;
 }
 
-.images > p {
-  right: 10px;
-}
-
 b {
   color: white;
   position: absolute;
-  bottom: 65px;
-  right: 3px;
-  font-size: 1.5rem;
+  bottom: 60px;
+  right: 0;
+  font-size: 1.65rem;
+  font-weight: 200;
 }
 
 .name {
   font-size: 3.3rem;
+  font-family: 'Noto Sans', sans-serif;
   top: 295px;
 }
 
@@ -151,7 +150,7 @@ b {
 }
 
 .image-body-text b {
-  top: 40px;
+  top: 42px;
 }
 
 .image-body-text p:first-child {
@@ -164,6 +163,7 @@ b {
 .body-text {
   width: 90%;
   top: 160px;
+  left: 20px;
   line-height: 18px;
   font-size: 1rem;
   font-weight: 200;
@@ -258,11 +258,12 @@ b {
 
 #right-footer-info {
   display: block;
-  margin-top: 7px;
+  margin-top: 10px;
+  margin-left: 20px;
   font-size: 1.2rem;
 }
 
 #right-icons {
-  font-size: 1.5rem;
-  margin: 10px 0 0 80px;
+  font-size: 1.7rem;
+  margin: 10px 0 0 90px;
 }

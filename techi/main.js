@@ -94,7 +94,7 @@ function renderEmployeeDesc(id, title, description) {
       console.log($title[i])
       let $description = document.querySelector('.body-text')
       console.log($description)
-      $title[i].textContent = title
+      $title[i].textContent = title.toLowerCase()
       $description.textContent = description
     }
   }
