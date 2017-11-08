@@ -15,15 +15,6 @@ function getEmployeeImage(data) {
   })
 }
 
-// function renderEmployeeImage(id, src) {
-//   let $images = document.querySelectorAll('.img')
-//   $images.forEach(function(image) {
-//     if (image.id == id) {
-//       image.src = 'https://techi.envivent.com/employees/' + src
-//     }
-//   })
-// }
-
 function renderEmployeeImage(id, src) {
   let $images = document.querySelectorAll('.img')
   for (i = 0; i < $images.length; i++) {
