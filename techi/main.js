@@ -28,7 +28,7 @@ function renderEmployeeImage(id, src) {
   let $images = document.querySelectorAll('.img')
   for (i = 0; i < $images.length; i++) {
     let image = $images[i]
-    if (image.id == id || image.getAttribute('data-id') == id) {
+    if (image.getAttribute('data-id') == id) {
       image.src = 'https://techi.envivent.com/employees/' + src
     }
   }
@@ -62,7 +62,7 @@ function renderEmployeeName(id, name) {
     for (let j = 0; j < $p.length; j++) {
       console.log($p[j])
     }
-    if ($employees[i].id == id || $employees[i].getAttribute('data-id') == id) {
+    if ($employees[i].getAttribute('data-id') == id) {
       $p[i].textContent = name.toUpperCase()
     }
   }
@@ -89,10 +89,10 @@ function getEmployeeDesc(data) {
 function renderEmployeeDesc(id, title, description) {
   let $employees = document.querySelectorAll('.img')
   for (i = 0; i < $employees.length; i++) {
-    if ($employees[i].id == id || $employees[i].getAttribute('data-id') == id) {
+    if ($employees[i].getAttribute('data-id') == id) {
       let $title = document.querySelectorAll('.title')
       console.log($title[i])
-      let $description = document.querySelector('#body-text')
+      let $description = document.querySelector('.body-text')
       console.log($description)
       $title[i].textContent = title
       $description.textContent = description
