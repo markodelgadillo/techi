@@ -38,8 +38,6 @@ function getEmployeeName(data) {
   data.forEach(function(employee) {
     let name = employee.first_name + ' ' + employee.last_name
     let id = employee.id
-    console.log(name)
-    console.log(id)
     renderEmployeeName(id, name)
   })
 }
@@ -47,12 +45,8 @@ function getEmployeeName(data) {
 function renderEmployeeName(id, name) {
   let $employees = document.querySelectorAll('.img')
   const $p = document.querySelectorAll('.name')
-  console.log($p)
   for (let i = 0; i < $employees.length; i++) {
-    console.log($employees[i].id)
-    for (let j = 0; j < $p.length; j++) {
-      console.log($p[j])
-    }
+    for (let j = 0; j < $p.length; j++) {}
     if ($employees[i].getAttribute('data-id') == id) {
       $p[i].textContent = name.toUpperCase()
     }
@@ -82,9 +76,7 @@ function renderEmployeeDesc(id, title, description) {
   for (i = 0; i < $employees.length; i++) {
     if ($employees[i].getAttribute('data-id') == id) {
       let $title = document.querySelectorAll('.title')
-      console.log($title[i])
       let $description = document.querySelector('.body-text')
-      console.log($description)
       $title[i].textContent = title.toLowerCase()
       $description.textContent = description
     }
