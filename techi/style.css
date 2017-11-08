@@ -30,7 +30,7 @@ footer {
   color: white;
 }
 
-footer > div > span {
+footer > div > p {
   text-align: center;
   font-size: 1.5rem;
 }
@@ -114,19 +114,22 @@ a {
   position: relative;
 }
 
-.images span {
+.images p {
   position: absolute;
   display: inline-block;
   white-space: nowrap;
   color: white;
-  font-size: 3rem;
+  font-size: 3.3rem;
   top: 300px;
   right: -2px;
 }
 
-.images span b {
+b {
+  color: white;
   position: absolute;
+  bottom: 65px;
   right: 3px;
+  font-size: 1.5rem;
 }
 
 #left-image-body-text {
@@ -137,10 +140,12 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-#left-image-body-text span {
-  position: relative;
+#left-image-body-text b {
+  top: 40px;
+}
+
+#left-image-body-text p {
   top: 10px;
-  right: -68px;
 }
 
 #body-text {
@@ -187,7 +192,7 @@ a {
 
 #left-footer {
   position: absolute;
-  left: 27%;
+  left: 38%;
 }
 
 #team-header {
@@ -201,7 +206,7 @@ a {
   display: block;
 }
 
-#team-header > span {
+#team-header > p {
   position: absolute;
   display: inline-block;
   margin-left: 10px;
