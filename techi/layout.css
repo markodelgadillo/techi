@@ -5,7 +5,7 @@ Layouts hold one or more modules together.
 .left {
   background-color: rgb(38, 50, 56);
   width: 75%;
-  height: 1662px;
+  height: 1689px;
   float: left;
   border-right: 1px solid black;
 }
