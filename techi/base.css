@@ -1,0 +1,71 @@
+/* Base rules are the defaults. */
+
+/*
+They are almost exclusively single element
+selectors but it could include attribute
+electors, pseudo-class selectors, child selectors
+or sibling selectors.
+Essentially, a base style says that wherever
+this element is on the page.
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  min-width: 900px;
+}
+
+header {
+  background-color: white;
+  position: relative;
+  height: 95px;
+}
+
+li {
+  font-size: 1.6rem;
+  color: rgb(21, 149, 136);
+}
+
+nav ul li {
+  list-style: none;
+}
+
+footer {
+  color: white;
+  font-weight: 200;
+}
+
+footer > div > p {
+  font-size: 1.5rem;
+  float: left;
+  margin-top: 20px;
+}
+
+a {
+  font-size: 1.85rem;
+  font-weight: 300;
+  color: rgb(21, 149, 136);
+}
+
+b {
+  color: white;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  font-size: 1.65rem;
+  font-weight: 200;
+}
+
+.container {
+  position: relative;
+  max-width: 1280px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
