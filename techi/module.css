@@ -4,10 +4,8 @@ the product lists and so on.
 */
 
 .left-team-members {
-  height: 500px;
-  width: 100%;
   background-color: white;
-  padding-left: 10px;
+  overflow: hidden;
 }
 
 .left-team-members > div {
@@ -16,9 +14,9 @@ the product lists and so on.
   margin: 18px 9px 0;
 }
 
-.link {
-  height: 12%;
-  color: rgb(21, 149, 136);
+.left-team-members a {
+  display: block;
+  margin-bottom: 11%;
 }
 
 .logo {
@@ -55,7 +53,7 @@ the product lists and so on.
 }
 
 .right-team-members > div {
-  margin: 15px -5px;
+  margin: 18px 9px 0;
 }
 
 .right-team-members div:first-child {
@@ -76,12 +74,11 @@ the product lists and so on.
 
 .images {
   position: relative;
-  width: 100%;
+  display: block;
 }
 
 .images p {
   position: absolute;
-  display: inline-block;
   color: white;
   right: -2px;
 }
@@ -95,7 +92,7 @@ the product lists and so on.
 .image-body-text {
   position: absolute;
   height: 83%;
-  width: 298px;
+  width: 100%;
   top: 67px;
   background-color: rgba(0, 0, 0, 0.5);
 }

@@ -18,7 +18,7 @@ this element is on the page.
 
 html,
 body {
-  min-width: 900px;
+  min-width: 760px;
 }
 
 header {
@@ -45,6 +45,7 @@ footer > div > p {
   font-size: 1.5rem;
   float: left;
   margin-top: 20px;
+  margin-left: 36%;
 }
 
 a {
@@ -60,6 +61,11 @@ b {
   right: 0;
   font-size: 1.65rem;
   font-weight: 200;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
