@@ -30,9 +30,6 @@ header {
 li {
   font-size: 1.6rem;
   color: rgb(21, 149, 136);
-}
-
-nav ul li {
   list-style: none;
 }
 
@@ -57,8 +54,8 @@ a {
 b {
   color: white;
   position: absolute;
-  bottom: 60px;
-  right: 0;
+  bottom: 14%;
+  right: 0%;
   font-size: 1.65rem;
   font-weight: 200;
 }

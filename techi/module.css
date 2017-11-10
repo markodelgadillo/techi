@@ -6,6 +6,8 @@ the product lists and so on.
 .left-team-members {
   background-color: white;
   overflow: hidden;
+  width: auto;
+  margin: auto;
 }
 
 .left-team-members > div {
@@ -20,22 +22,20 @@ the product lists and so on.
 }
 
 .logo {
+  position: relative;
   height: 95px;
-}
-
-.logo img {
-  top: 10px;
-  right: 45px;
 }
 
 .right .logo img {
   position: absolute;
+  top: 10px;
+  right: 10%;
 }
 
 .logo i {
-  position: relative;
+  position: absolute;
   top: 33px;
-  left: 277px;
+  right: 6%;
   color: rgb(21, 149, 136);
   font-size: 3rem;
 }
@@ -88,7 +88,7 @@ the product lists and so on.
   font-size: 3.3rem;
   font-family: 'Noto Sans', sans-serif;
   text-align: right;
-  top: 295px;
+  top: 73%;
 }
 
 .description {
@@ -104,7 +104,8 @@ the product lists and so on.
   position: absolute;
   height: 83%;
   width: 100%;
-  top: 67px;
+  top: 16.5%;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -141,22 +142,21 @@ the product lists and so on.
 
 .team-header {
   position: relative;
+  background-color: white;
   color: white;
-  background: black;
-  height: 165px;
+  height: auto;
 }
 
 .team-header > div {
   display: block;
 }
 
-.team-header > p {
+.team-header p {
   position: absolute;
   display: inline-block;
-  margin-left: 10px;
-  font-size: 4rem;
-  top: 30%;
-  transform: translateY(50%);
+  font-size: 4.8em;
+  top: 45%;
+  left: 2%;
   text-shadow: 1px 1px 10px #000, 1px 1px 10px #000;
 }
 
@@ -164,6 +164,10 @@ the product lists and so on.
   position: relative;
   width: 100%;
   padding-left: 0;
+}
+
+.right-nav:first-child {
+  border-top: 1px solid black;
 }
 
 .right-nav li {
@@ -178,10 +182,6 @@ the product lists and so on.
   border-left: 1px solid white;
   background-color: rgb(40, 39, 39);
   color: rgb(21, 149, 136);
-}
-
-.right-nav:first-child {
-  border-top: 1px solid black;
 }
 
 .right-footer {

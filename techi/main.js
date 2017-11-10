@@ -83,6 +83,13 @@ function renderEmployeeDesc(id, title, description) {
   }
 }
 
-addImage()
-addName()
-addDescription()
+// let $employees = document.querySelectorAll('.img')
+// for (i = 0; i < $employees.length; i++) {
+//   let id = $employees[i].getAttribute('data-id')
+//   setInterval(function() {
+//     id++
+//     addImage()
+//     addName()
+//     addDescription()
+//   }, 1000)
+// }
