@@ -1,0 +1,203 @@
+/* Modules are the reusable, modular parts of our design.
+They are the callouts, the sidebar sections,
+the product lists and so on.
+*/
+
+.left-team-members {
+  background-color: white;
+  overflow: hidden;
+}
+
+.left-team-members > div {
+  position: relative;
+  float: left;
+  margin: 18px 9px 0;
+}
+
+.left-team-members a {
+  display: block;
+  margin-bottom: 11%;
+}
+
+.logo {
+  height: 95px;
+}
+
+.logo img {
+  top: 10px;
+  right: 45px;
+}
+
+.right .logo img {
+  position: absolute;
+}
+
+.logo i {
+  position: relative;
+  top: 33px;
+  left: 277px;
+  color: rgb(21, 149, 136);
+  font-size: 3rem;
+}
+
+.left .logo {
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  width: calc(1280px / 4);
+  float: left;
+}
+
+.right-team-members {
+  margin-left: 4px;
+}
+
+.right-team-members > div {
+  margin: 18px 9px 0;
+}
+
+.right-team-members div:first-child {
+  margin-top: 0;
+}
+
+.right-team-members a {
+  display: block;
+  margin-bottom: 11%;
+}
+
+.right-team-members b {
+  top: 84%;
+}
+
+.right > footer {
+  padding: 0;
+}
+
+.images {
+  position: relative;
+  display: block;
+}
+
+.images p {
+  position: absolute;
+  color: white;
+  right: -2px;
+}
+
+.name {
+  font-size: 3.3rem;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: right;
+  top: 295px;
+}
+
+.description {
+  width: 90%;
+  top: 160px;
+  left: 20px;
+  line-height: 18px;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.description-bg {
+  position: absolute;
+  height: 83%;
+  width: 100%;
+  top: 67px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.description-bg b {
+  top: 42px;
+}
+
+.description-bg p:first-child {
+  position: relative;
+  top: 10px;
+  right: -2px;
+}
+
+.left-nav {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.left-nav ul {
+  float: left;
+}
+
+.left-nav ul li {
+  float: left;
+  margin: 5px;
+}
+
+.left-icons {
+  font-size: 2.5rem;
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+.team-header {
+  position: relative;
+  color: white;
+  background: black;
+  height: 165px;
+}
+
+.team-header > div {
+  display: block;
+}
+
+.team-header > p {
+  position: absolute;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 4rem;
+  top: 30%;
+  transform: translateY(50%);
+  text-shadow: 1px 1px 10px #000, 1px 1px 10px #000;
+}
+
+.right-nav {
+  position: relative;
+  width: 100%;
+  padding-left: 0;
+}
+
+.right-nav li {
+  height: calc(145px / 3);
+  border-bottom: 1px solid black;
+  color: rgb(40, 39, 39);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.right-nav li:hover {
+  border-left: 1px solid white;
+  background-color: rgb(40, 39, 39);
+  color: rgb(21, 149, 136);
+}
+
+.right-nav:first-child {
+  border-top: 1px solid black;
+}
+
+.right-footer {
+  background-color: rgb(38, 50, 56);
+  height: 95px;
+  border-left: 1px solid white;
+  padding-top: 5px;
+}
+
+.right-footer > p {
+  margin-top: 10px;
+  margin-left: 71px;
+  font-size: 1.1rem;
+}
+
+.right-icons {
+  font-size: 1.7rem;
+  margin: 10px 0 0 90px;
+}
