@@ -182,7 +182,7 @@ the product lists and so on.
 
 .right-footer {
   background-color: rgb(38, 50, 56);
-  height: 95px;
+  height: 75px;
   border-left: 1px solid white;
   padding-top: 5px;
 }
@@ -195,5 +195,5 @@ the product lists and so on.
 
 .right-icons {
   font-size: 1.7rem;
-  margin: 10px 0 0 90px;
+  margin: 30px 0 0 90px;
 }
