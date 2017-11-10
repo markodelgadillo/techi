@@ -88,8 +88,9 @@ function renderEmployeeDesc(id, title, description) {
 //   let id = $employees[i].getAttribute('data-id')
 //   setInterval(function() {
 //     id++
-//     addImage()
-//     addName()
-//     addDescription()
 //   }, 1000)
 // }
+
+addImage()
+addName()
+addDescription()

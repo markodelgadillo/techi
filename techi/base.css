@@ -19,6 +19,7 @@ this element is on the page.
 html,
 body {
   min-width: 760px;
+  max-width: 1280px;
 }
 
 header {
@@ -36,6 +37,7 @@ li {
 footer {
   color: white;
   font-weight: 200;
+  width: auto;
 }
 
 footer > div > p {
@@ -54,7 +56,7 @@ a {
 b {
   color: white;
   position: absolute;
-  bottom: 14%;
+  bottom: 18%;
   right: 0%;
   font-size: 1.65rem;
   font-weight: 200;
@@ -67,8 +69,7 @@ img {
 
 .container {
   position: relative;
-  max-width: 1280px;
+  width: 100%;
   height: auto;
-  margin: 0 auto;
   overflow: hidden;
 }

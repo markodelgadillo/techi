@@ -3,17 +3,15 @@ They are the callouts, the sidebar sections,
 the product lists and so on.
 */
 
-.left-team-members {
+.team-members {
   background-color: white;
   overflow: hidden;
-  width: auto;
-  margin: auto;
+  padding-left: 5px;
 }
 
-.left-team-members > div {
-  position: relative;
+.team-members > div {
   float: left;
-  margin: 18px 9px 0;
+  margin: 14px 9px 0;
 }
 
 .left-team-members a {
@@ -23,37 +21,33 @@ the product lists and so on.
 
 .logo {
   position: relative;
-  height: 95px;
+  height: 85px;
 }
 
 .right .logo img {
   position: absolute;
-  top: 10px;
-  right: 10%;
+  top: 0.75vw;
+  right: 3vw;
 }
 
 .logo i {
   position: absolute;
-  top: 33px;
-  right: 6%;
+  top: 3vh;
+  right: 1.5vw;
   color: rgb(21, 149, 136);
-  font-size: 3rem;
+  font-size: 2.5vw;
 }
 
 .left .logo {
   position: absolute;
   left: -20px;
   top: 10px;
-  width: calc(1280px / 4);
+  width: 25%;
   float: left;
 }
 
 .right-team-members {
-  margin-left: 4px;
-}
-
-.right-team-members > div {
-  margin: 18px 9px 0;
+  margin-top: 10px;
 }
 
 .right-team-members div:first-child {
@@ -65,8 +59,12 @@ the product lists and so on.
   margin-bottom: 11%;
 }
 
+.right-team-members .name {
+  font-size: 2.7vw;
+}
+
 .right-team-members b {
-  top: 84%;
+  font-size: 1.3vw;
 }
 
 .right > footer {
@@ -85,15 +83,14 @@ the product lists and so on.
 }
 
 .name {
-  font-size: 3.3rem;
+  font-size: 3.3em;
   font-family: 'Noto Sans', sans-serif;
-  text-align: right;
-  top: 73%;
+  top: 69%;
 }
 
 .description {
   width: 90%;
-  top: 160px;
+  top: 25%;
   left: 20px;
   line-height: 18px;
   font-size: 1rem;
@@ -114,9 +111,7 @@ the product lists and so on.
 }
 
 .description-bg p:first-child {
-  position: relative;
   top: 10px;
-  right: -2px;
 }
 
 .left-nav {
@@ -164,6 +159,7 @@ the product lists and so on.
   position: relative;
   width: 100%;
   padding-left: 0;
+  top: 10px;
 }
 
 .right-nav:first-child {
