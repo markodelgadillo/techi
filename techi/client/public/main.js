@@ -76,13 +76,24 @@ function renderEmployeeDesc(id, title, description) {
   for (i = 0; i < $employees.length; i++) {
     if ($employees[i].getAttribute('data-id') == id) {
       let $title = document.querySelectorAll('.title')
-      let $description = document.querySelector('.body-text')
+      let $description = document.querySelector('.description')
       $title[i].textContent = title.toLowerCase()
       $description.textContent = description
     }
   }
 }
 
+// let dataID = document.querySelectorAll('.img').getAttribute('data-id')
+// console.log(dataID)
+// setInterval (() {
+//   dataID ++
+//   if (dataID > 8) {
+//     dataID = 1
+//   }
+// }, 3000)
+addImage()
+addName()
+addDescription()
 // let $employees = document.querySelectorAll('.img')
 // for (i = 0; i < $employees.length; i++) {
 //   let id = $employees[i].getAttribute('data-id')
@@ -90,7 +101,3 @@ function renderEmployeeDesc(id, title, description) {
 //     id++
 //   }, 1000)
 // }
-
-addImage()
-addName()
-addDescription()

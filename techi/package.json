@@ -1,0 +1,31 @@
+{
+  "name": "techi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "config": {
+    "client-root": "./client/public",
+    "server-root": "./server/public"
+  },
+  "scripts": {
+    "start": "node ./server",
+    "nodemon": "nodemon -V -i $npm_package_config_server_root ./server",
+    "build": "run-s build:*",
+    "build:clean": "rm -rf $npm_package_config_server_root ./server",
+    "build:css":
+      "find client -name '*.css' -type f -exec cat {} \\; > $npm_package_config_server_root/styles.css",
+    "watch": "run-p build:* watch:* nodemon",
+    "watch:css":
+      "onchange $npm_package_config_client_root'/**/*.css' -- npm run build:css",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concat-glob-cli": "^0.1.0",
+    "nodemon": "^1.12.1",
+    "npm-run-all": "^4.1.2",
+    "onchange": "^3.2.1"
+  }
+}

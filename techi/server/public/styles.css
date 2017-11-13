@@ -1,7 +1,82 @@
-/* Modules are the reusable, modular parts of our design.
-They are the callouts, the sidebar sections,
-the product lists and so on.
-*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  min-width: 760px;
+  max-width: 1280px;
+}
+
+header {
+  background-color: white;
+  position: relative;
+  height: 95px;
+}
+
+li {
+  font-size: 1.7rem;
+  color: rgb(21, 149, 136);
+  list-style: none;
+}
+
+footer {
+  color: white;
+  font-weight: 200;
+  width: auto;
+}
+
+a {
+  font-size: 1.85rem;
+  font-weight: 300;
+  color: rgb(21, 149, 136);
+}
+
+b {
+  color: white;
+  position: absolute;
+  bottom: 18%;
+  right: 0%;
+  font-size: 1.65rem;
+  font-weight: 200;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.left {
+  background-color: rgb(38, 50, 56);
+  width: 75%;
+  height: 1636px;
+  float: left;
+  border-right: 1px solid black;
+}
+
+.right {
+  float: left;
+  width: 25%;
+  height: 100%;
+  overflow: hidden;
+}
+
+footer > div > p {
+  font-size: 1.5rem;
+  float: left;
+  margin-top: 20px;
+  margin-left: 36%;
+}
 
 .team-members {
   background-color: white;
